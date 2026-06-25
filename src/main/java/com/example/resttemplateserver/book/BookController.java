@@ -31,7 +31,7 @@ public class BookController {
 		return bookRepository.findAll();
 	}
 
-	@GetMapping("/{id}")
+	@GetMapping("/{id}") 
 	public Book getBook(@PathVariable Integer id) {
 		return bookRepository.findById(id)
 			.orElseThrow(() -> new ResponseStatusException(NOT_FOUND, "Book not found: " + id));
