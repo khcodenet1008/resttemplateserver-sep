@@ -11,7 +11,7 @@ env:
   STUDENT_ID: theara72
   IMAGE_NAME: resttemplateserver-sep
 
-  GITOPS_REPO: theara72/resttemplateserver-sep-gitops
+  GITOPS_REPO: khcodenet1008/resttemplateserver-sep-gitops
   GITOPS_PATH: overlays/dev
 
 jobs:
